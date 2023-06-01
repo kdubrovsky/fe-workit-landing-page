@@ -1,28 +1,5 @@
 @use "colors";
-
-// global
-
-.containter {
-    width: 1190px;
-    margin: 0 auto;
-    padding: 0 40px;
-    // outline: 1px solid red;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-// blocks
+@import "globals";
 
 .btn {
     font-family: "Manrope";
@@ -85,7 +62,7 @@
         width: 100%;
         height: 100%;
         background-color: colors.$dark-purple;
-        background-image: url('/images/bg-pattern-1.svg'), url('/images/bg-pattern-2.svg');
+        background-image: url("/images/bg-pattern-1.svg"), url("/images/bg-pattern-2.svg");
         background-repeat: no-repeat;
         background-position: calc(50% - 690px) 0px, calc(50% + 680px) 200px;
         clip-path: ellipse(2000px 1000px at center -387px);
@@ -116,7 +93,7 @@
         .underlined-text {
             position: relative;
             &::after {
-                content: '';
+                content: "";
                 position: absolute;
                 height: 3px;
                 width: 92%;
