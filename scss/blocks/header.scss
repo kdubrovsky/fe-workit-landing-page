@@ -1,0 +1,12 @@
+.header {
+    display: flow-root;
+    background-color: colors.$dark-purple;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 56px;
+        margin-bottom: 24px;
+        align-items: flex-start;
+    }
+}
