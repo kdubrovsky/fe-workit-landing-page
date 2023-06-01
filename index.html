@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="scss/styles.scss">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope:wght@400;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,WONK@9..144,600,1&family=Manrope:wght@400;700&display=swap"
         rel="stylesheet">
     <title>Frontend Mentor | Workit landing page</title>
 </head>
@@ -18,23 +19,27 @@
 <body>
     <header class="header">
         <div class="containter">
-            <div class="header__logo">
-                <img src="images/logo-light.svg" alt="WorkIt Logo">
-                <h1 class="header__title">WorkIt</h1>
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <h1 class="visually-hidden">WorkIt Data Startup</h1>
+                    <img src="images/logo-light.svg" alt="WorkIt Logo">
+                </div>
+                <button class="btn btn--secondary">Apply for access</button>
             </div>
-            <button class="btn btn--secondary">Apply for access</button>
         </div>
     </header>
 
     <section class="hero">
         <div class="containter">
-            <h2 class="hero__title">
-                Data <span class="underlined-text">tailored</span> to your needs.
-            </h2>
-            <button class="btn btn--primary">
-                Learn more
-            </button>
-            <img class="hero__image" src="images/image-hero.png" alt="WorkIt App on iPhone">
+            <div class="hero__wrapper">
+                <h2 class="hero__title">
+                    Data <span class="underlined-text">tailored</span> to your needs.
+                </h2>
+                <button class="btn btn--primary">
+                    Learn more
+                </button>
+                <img class="hero__image" src="images/image-hero.png" alt="WorkIt App on iPhone">
+            </div>
         </div>
     </section>
 
