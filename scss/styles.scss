@@ -1,0 +1,42 @@
+@use "colors";
+
+// global
+
+.containter {
+    width: 1110px;
+    margin: 0 auto;
+    // outline: 1px solid red;
+}
+
+// blocks
+
+.btn {
+    font-family: "Manrope";
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    line-height: 32px;
+    cursor: pointer;
+
+    &--primary {
+        padding: 11px 25px 14px;
+        color: colors.$dark-purple;
+        background-color: colors.$eucaplyptus;
+        border: 2px solid colors.$eucaplyptus;
+
+        &:hover {
+            background-color: transparent;
+            color: colors.$eucaplyptus;
+        }
+    }
+
+    &--secondary {
+        color: colors.$white;
+        border-bottom: 2px solid colors.$eucaplyptus;
+        background-color: transparent;
+    }
+
+    &:hover {
+        color: colors.$eucaplyptus;
+    }
+}
