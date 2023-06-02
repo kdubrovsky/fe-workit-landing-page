@@ -17,3 +17,10 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+body {
+    background-color: colors.$white;
+    font-family: 'Manrope';
+    font-size: 18px;
+    line-height: 32px;
+}

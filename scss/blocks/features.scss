@@ -1,6 +1,5 @@
 .features {
     display: flow-root;
-    background-color: colors.$white;
     position: relative;
     z-index: 1;
 
@@ -42,11 +41,8 @@
     }
 
     &__description {
-        font-family: "Manrope";
         text-align: center;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 32px;
         color: colors.$davys-gray;
     }
 
