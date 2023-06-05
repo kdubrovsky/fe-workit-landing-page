@@ -14,9 +14,16 @@
         background-color: colors.$dark-purple;
         background-image: url("/images/bg-pattern-1.svg"), url("/images/bg-pattern-2.svg");
         background-repeat: no-repeat;
-        background-position: calc(50% - 690px) 0px, calc(50% + 680px) 200px;
-        clip-path: ellipse(2000px 1000px at center -387px);
+        background-position: -16.1% -6.6%, right 2.8% top 32%;
+        clip-path: ellipse(110% 79% at top center);
         z-index: -1;
+        @media (min-width: 768px) and (max-width: 1279px) {
+            clip-path: ellipse(128% 79% at top center);
+        }
+        @media (max-width: 767px) {
+            clip-path: ellipse(128% 82% at top center);
+            background-image: none;
+        }
     }
 
     &__wrapper {
@@ -24,21 +31,45 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @media (max-width: 767px) {
+            margin-top: 40px;
+        }
     }
 
     &__image {
         width: 73.5%;
         margin-top: 50px;
+        @media (max-width: 767px) {
+            margin-top: 64px;
+        }
+        @media (min-width: 768px) and (max-width: 1279px) {
+            margin-top: 56px;
+        }
     }
 
     &__title {
         font-family: "Fraunces";
         font-size: 80px;
-        line-height: 80px;
+        line-height: 1;
         text-align: center;
         color: colors.$white;
         width: 635px;
         margin-bottom: 37px;
+
+        @media (max-width: 767px) {
+            font-size: 50px;
+            font-variation-settings: "opsz" 144;
+            width: 100%;
+            max-width: 373px;
+            margin-bottom: 40px;
+        }
+
+        @media (min-width: 768px) and (max-width: 1279px) {
+            font-size: 60px;
+            width: 573px;
+            font-variation-settings: "opsz" 144;
+        }
 
         .underlined-text {
             position: relative;
@@ -50,6 +81,12 @@
                 bottom: 6px;
                 left: 4%;
                 background-color: colors.$eucaplyptus;
+
+                @media (max-width: 767px) {
+                    bottom: 3px;
+                    width: 98%;
+                    left: 1%;
+                }
             }
         }
     }
