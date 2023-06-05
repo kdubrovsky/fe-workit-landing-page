@@ -6,12 +6,21 @@
     line-height: 32px;
     cursor: pointer;
 
+    @media (max-width: 1280px) {
+        font-size: 16px;
+    }
+
     &--primary {
         padding: 11px 23px 14px;
         color: colors.$dark-purple;
         background-color: colors.$eucaplyptus;
         border: 2px solid colors.$eucaplyptus;
         min-width: 160px;
+
+        @media (max-width: 1280px) {
+            padding: 9px 22px 10px;
+            min-width: auto;
+        }
 
         &:hover {
             background-color: transparent;
@@ -23,6 +32,11 @@
         color: colors.$white;
         border-bottom: 3px solid colors.$eucaplyptus;
         background-color: transparent;
+
+        @media (max-width: 1280px) {
+            line-height: 30px;
+            padding-top: 1px;
+        }
     }
 
     &:hover {
