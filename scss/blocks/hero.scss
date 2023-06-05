@@ -18,10 +18,10 @@
         clip-path: ellipse(110% 79% at top center);
         z-index: -1;
         @media (min-width: 768px) and (max-width: 1279px) {
-            clip-path: ellipse(128% 79% at top center);
+            clip-path: ellipse(128% 75% at top center);
         }
         @media (max-width: 767px) {
-            clip-path: ellipse(128% 82% at top center);
+            clip-path: ellipse(174% 81% at top center);
             background-image: none;
         }
     }
@@ -42,9 +42,11 @@
         margin-top: 50px;
         @media (max-width: 767px) {
             margin-top: 64px;
+            width: 98%;
         }
         @media (min-width: 768px) and (max-width: 1279px) {
             margin-top: 56px;
+            width: 79%;
         }
     }
 
