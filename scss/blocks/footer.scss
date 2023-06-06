@@ -8,6 +8,12 @@
         gap: 56px;
         margin-bottom: 110px;
 
+        @media (max-width: 1279px) {
+            margin-bottom: 122px;
+        }
+        @media (max-width: 767px) {
+            margin-bottom: 64px;
+        }
     }
 
     &__social-list {
