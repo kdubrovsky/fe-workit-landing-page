@@ -52,6 +52,7 @@
 
     &__title {
         font-family: "Fraunces";
+        font-variation-settings: "opsz" 144;
         font-size: 80px;
         line-height: 1;
         text-align: center;
@@ -62,12 +63,11 @@
         @media (min-width: 768px) and (max-width: 1279px) {
             font-size: 60px;
             width: 573px;
-            font-variation-settings: "opsz" 144;
+
         }
 
         @media (max-width: 767px) {
             font-size: 50px;
-            font-variation-settings: "opsz" 144;
             width: 100%;
             max-width: 373px;
             margin-bottom: 40px;

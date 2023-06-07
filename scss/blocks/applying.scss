@@ -83,6 +83,7 @@
 
     &__title {
         font-family: "Fraunces";
+        font-variation-settings: "opsz" 144;
         font-size: 56px;
         line-height: 64px;
         margin-bottom: 32px;
@@ -91,14 +92,12 @@
             font-size: 48px;
             line-height: 56px;
             margin-bottom: 24px;
-            font-variation-settings: "opsz" 144;
         }
 
         @media (max-width: 767px) {
             font-size: 32px;
             line-height: 48px;
             margin-bottom: 16px;
-            font-variation-settings: "opsz" 144;
         }
     }
 
