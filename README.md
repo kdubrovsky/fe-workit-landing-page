@@ -2,7 +2,7 @@
 
 This is a solution to the [Workit landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu).
 
-[Live Site URL](https://fe-workit-landing-page-git-main-kdubrovsky.vercel.app)
+[Live Site URL](https://fe-workit-landing-page.vercel.app/)
 
 ### Built with
 
